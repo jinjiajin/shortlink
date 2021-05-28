@@ -12,14 +12,11 @@
   [https://i7f.cn](https://i7f.cn/)
 
 ##### 小程序
-![](https://i7f.cn/4.png)
+![](https://i7f.cn/1.png)
 ## 界面效果
 
 ### 电脑端
-![](https://i7f.cn/1.png)
-
-### 移动端
 ![](https://i7f.cn/2.png)
 
-### 小程序
+### 移动端/小程序
 ![](https://i7f.cn/3.png)
