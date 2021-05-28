@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页-短链接服务",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/conditions/index",
+      "style": {
+        "navigationBarTitleText": "使用条款-短链接服务",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/privacy/index",
+      "style": {
+        "navigationBarTitleText": "隐私条款-短链接服务",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/api/index",
+      "style": {
+        "navigationBarTitleText": "接口文档-短链接服务",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "短链接服务",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
