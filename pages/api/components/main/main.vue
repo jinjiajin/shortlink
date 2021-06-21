@@ -1,22 +1,18 @@
 <template>
-  <div class="container">
-    <div class="h1">{{ siteName }}接口文档</div>
-    <div>
-      <div class="h3">基本信息:</div>
-      <div>接口URL：https://i7f.cn/api/links</div>
-      <div>请求方式：POST</div>
-      <div class="h3">请求参数:</div>
-      <div>参数名：longUrl</div>
-      <div>示例值：https://taobao.com</div>
-      <div class="h3">响应示例</div>
-      <div class="h4">成功响应示例</div>
-      <div>{</div>
-      <div>"code":0,</div>
-      <div>"data":{"code":"https://i7f.cn/EZNFF5"},</div>
-      <div>"msg":""</div>
-      <div>}</div>
-    </div>
-  </div>
+  <view class="container">
+    <view class="h1">{{ siteName }}接口文档</view>
+    <view>
+      <view class="h3">基本信息:</view>
+      <view>接口URL：https://i7f.cn/api/links</view>
+      <view>请求方式：POST</view>
+      <view class="h3">请求参数:</view>
+      <view>参数名：longUrl</view>
+      <view>示例值：https://taobao.com</view>
+      <view class="h3">响应示例</view>
+      <view class="h4">成功响应示例</view>
+      <view>{ "code":0, "data":{"code":"https://i7f.cn/8o8oMh"},"msg":""}</view>
+    </view>
+  </view>
 </template>
 
 <script>
