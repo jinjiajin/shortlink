@@ -10,12 +10,11 @@
       <div>示例值：https://taobao.com</div>
       <div class="h3">响应示例</div>
       <div class="h4">成功响应示例</div>
-      <div>
-        {
-        "data": "https://i7f.cn/t",
-        "message": "Success"
-        }
-      </div>
+      <div>{</div>
+      <div>"code":0,</div>
+      <div>"data":{"code":"https://i7f.cn/EZNFF5"},</div>
+      <div>"msg":""</div>
+      <div>}</div>
     </div>
   </div>
 </template>
@@ -25,10 +24,10 @@ export default {
   data() {
     return {
       siteName: this.$SiteName,
-    }
+    };
   },
   methods: {},
-}
+};
 </script>
 
 <style lang="scss" scoped>
