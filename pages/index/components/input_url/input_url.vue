@@ -49,7 +49,7 @@ export default {
       const data = await links({
         longUrl: this.input_url,
       })
-      this.content = data
+      this.content = data.code
       this.type = '1'
       this.isMask = true
       this.input_url = ''

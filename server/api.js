@@ -14,7 +14,7 @@ function request(url, method, data) {
         'content-type': 'application/json',
       },
       success: function (res) {
-        if (res.data.message == 'Success') {
+        if (res.data.code === 0) {
           resolve(res.data.data)
         } else {
           uni.showToast({
